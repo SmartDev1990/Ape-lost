@@ -60,3 +60,15 @@
     width: 50px;
   }
 }
+.apewrappercard{
+  border-top: 1px solid;
+  background-color:#A9AFD1;
+  width: 300vh;
+  height: 40vh;
+
+
+}
+.div > apewrappercard >img {
+  margin: 10%;
+  padding: 100px;
+}

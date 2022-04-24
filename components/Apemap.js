@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="apecardcontainer">
       <div className="apewrapper">
         <div className="apewrappercard">
-          <img className="apewrapperteam" src="/images/APEMAP.png" />
+          <img className="apewrapperteam" width="363px" height="159px"src="/images/APEMAP.png" />
           </div>
           <div className="apewrapperteam">
           <a

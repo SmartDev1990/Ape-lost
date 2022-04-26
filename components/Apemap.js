@@ -3,13 +3,12 @@ import { Container, Row, Col } from 'reactstrap';
 
 const Hero = () => {
   return (
-    <section className="section position-relative" style={{marginTop: "100px", marginBottom: "100px"}} id="APEMAP">
+    <section style={{marginTop: "100px", marginBottom: "100px"}} id="APEMAP">
       <Container>
       <h3 className="feature-content2">THE APE MAP</h3>
-      <div className="apecardcontainer">
+      <div className="container">
       <div className="apewrapper">
-        <div className="apewrappercard">
-          <img className="apewrapperteam" width="363px" height="159px"src="/images/APEMAP.png" />
+          <img align-items="center" src="/images/APEMAP.png" />
           </div>
           <div className="apewrapperteam">
           <a
@@ -17,7 +16,6 @@ const Hero = () => {
             className="btn"
             >EXPLORE THE APE MAP</a
           >
-        </div>
         </div>
        </div>
       </Container>

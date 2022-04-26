@@ -106,16 +106,16 @@ transition: all 0.2s ease-in-out;
 .apecardcontainer {
   background-size: auto;
   background-repeat: no-repeat;
-  display: flex-start;
+  display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 100px;
   padding-bottom: 100px;
+  position: inherit;
   }
 
 .apewrappercard {
 align-items: center;
-background-size: 3000px;
 position: relative;
 background-repeat: no-repeat;
 display: flex;

@@ -6,7 +6,7 @@ const Hero = () => {
     <section background-color="#10083B" style={{marginTop: "30px", marginBottom: "30px"}}>
     <div className="container">
         <div className="text-center">
-          <h3 classNameName="feature-content2">A CILIVIZATION AUGMENTED</h3>
+          <h3 classNameName="feature-content2" padding="30px">A CILIVIZATION AUGMENTED</h3>
 
           <div className="row">
             <div className="col-md-3">

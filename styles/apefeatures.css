@@ -181,3 +181,35 @@ border-top: 1px solid #f3f8ff;
         margin-bottom: 14px;
     }
   }
+
+.ecosystem {
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    background: white;
+
+.title {
+      color: $dark-color;
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+.subtitle {
+      color: $dark-light-color;
+      font-size: 20px;
+      margin-bottom: 40px;
+
+      @include breakpoint(mobile) {
+        font-size: 18px;
+      }
+    }
+
+    &-icon {
+      margin-top: 40px;
+      height: 120px;
+      margin-bottom: 20px;
+
+      @include breakpoint(mobile) {
+        margin-top: 40px;
+      }
+    }

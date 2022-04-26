@@ -8,7 +8,7 @@ const Hero = () => {
       <h3 className="feature-content2">A CILIVIZATION AUGMENTED</h3>
       <div className="row align-items-start">
       <div className="cardcontainer">
-      <div className="grid2">
+      <div className="grid">
         <div className="wrapper">
           <img className="wrappericon" src="/images/NFT1.png" />
              <img className="wrappericon" src="/images/NFT1.png" />

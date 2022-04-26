@@ -83,7 +83,7 @@ background-color: #10083B;
 max-width: auto;
 margin: 0 auto;
 display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
+ grid-template-columns: repeat(4, 1fr);
 align-items: center;
 grid-gap: 16px;
 padding: 0 50px;
@@ -92,7 +92,7 @@ background-color: #10083B;
 
 .wrappercard {
 background: #10083B;
-display: flex;
+display: grid;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
@@ -104,14 +104,13 @@ transition: all 0.2s ease-in-out;
 }
 
 .apecardcontainer {
-  background-size: 3000px;
+  background-size: auto;
   background-repeat: no-repeat;
-  display: flex;
+  display: flex-start;
   justify-content: center;
   align-items: center;
   padding-top: 100px;
   padding-bottom: 100px;
-  position: relative;
   }
 
 .apewrappercard {

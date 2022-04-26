@@ -8,28 +8,12 @@ const Hero = () => {
       <h3 className="feature-content2">A CILIVIZATION AUGMENTED</h3>
       <div className="row align-items-start">
       <div className="cardcontainer">
-      <div className="row">
-      <div className="wrapper">
-      <Col>
-        <div className="wrappercard">
+      <div className="grid2">
+        <div className="wrapper">
           <img className="wrappericon" src="/images/NFT1.png" />
-         </div>
-         </Col>
-         <Col>
-           <div className="wrappercard">
              <img className="wrappericon" src="/images/NFT1.png" />
-            </div>
-            </Col>
-            <Col>
-              <div className="wrappercard">
-                <img className="wrappericon" src="/images/NFT1.png" />
-               </div>
-               </Col>
-               <Col>
-                 <div className="wrappercard">
-                   <img className="wrappericon" src="/images/NFT1.png" />
-                  </div>
-                  </Col>
+             <img className="wrappericon" src="/images/NFT1.png" />
+           <img className="wrappericon" src="/images/NFT1.png" />
         </div>
        </div>
        </div>

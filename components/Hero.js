@@ -75,11 +75,11 @@ const Feature = (props) => {
 
 
   return (
-    <section id="features">
+    <section id="hero">
       <div className="herocontainer">
         <Row className="justify-content-center">
           <Col>
-            <img  src="/images/hero.png" />
+            <img className="feature-img" src="/images/hero.png"/>
             <div className="title mb-5">
               <h3 className="feature-content">
                 DEEP IN THE JUNGGLE <br />

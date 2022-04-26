@@ -117,8 +117,7 @@ const Header = () => {
       <Navbar light expand="md">
         <Container>
           <NavbarBrand href="/">
-          <img src="/images/logo2.png" alt="" style={{width: "200px"}}/>
-            <img src="/images/logo.png" alt="" style={{width: "100px"}}/>
+            <img src="/images/logo.png" alt="" style={{width: "150px"}}/>
           </NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>

@@ -8,6 +8,7 @@ const Hero = () => {
       <h3 className="feature-content2">A CILIVIZATION AUGMENTED</h3>
       <div className="row align-items-start">
       <div className="cardcontainer">
+      <div className="row">
       <div className="wrapper">
       <Col>
         <div className="wrappercard">
@@ -30,6 +31,7 @@ const Hero = () => {
                   </div>
                   </Col>
         </div>
+       </div>
        </div>
        </div>
       </Container>

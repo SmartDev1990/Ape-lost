@@ -7,7 +7,6 @@ import Footer from '../components/Footer';
 import Faq from '../components/Faq';
 import About from '../components/About';
 import Join from '../components/Join';
-import Apefeatures from '../components/Apefeatures';
 
 const Index = () => {
   return (
@@ -15,7 +14,6 @@ const Index = () => {
       <Header />
       <Hero />
       <Feature/>
-      <Apefeatures/>
       <Apemap/>
       <Faq />
       <About />

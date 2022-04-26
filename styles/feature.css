@@ -73,8 +73,7 @@ text-align: center;
 
 .cardcontainer {
 max-width: auto;
-display: grid;
-grid-auto-flow: column;
+display: flex;
 flex-direction: column;
 justify-content: center;
 background-color: #10083B;
@@ -84,9 +83,8 @@ background-color: #10083B;
 max-width: auto;
 margin: 0 auto;
 display: grid;
-grid-auto-flow: column;
 grid-template-columns: 1fr 1fr 1fr 1fr;
-align-items: flex-start;
+align-items: center;
 grid-gap: 16px;
 padding: 0 50px;
 background-color: #10083B;
@@ -94,7 +92,7 @@ background-color: #10083B;
 
 .wrappercard {
 background: #10083B;
-display: grid;
+display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;

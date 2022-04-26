@@ -6,24 +6,32 @@ const Hero = () => {
     <section background-color="#10083B" style={{marginTop: "30px", marginBottom: "30px"}}>
       <Container>
       <h3 className="feature-content2">A CILIVIZATION AUGMENTED</h3>
-      <Row>
+      <div className="row align-items-start">
       <div className="cardcontainer">
       <div className="wrapper">
+      <Col>
         <div className="wrappercard">
           <img className="wrappericon" src="/images/NFT1.png" />
          </div>
-         <div className="wrappercard">
-          <img className="wrappericon" src="/images/NFT2.png" />
-         </div>
-         <div className="wrappercard">
-           <img className="wrappericon" src="/images/NFT3.png" />
-          </div>
-          <div className="wrappercard">
-           <img className="wrappericon" src="/images/NFT4.png" />
-          </div>
+         </Col>
+         <Col>
+           <div className="wrappercard">
+             <img className="wrappericon" src="/images/NFT1.png" />
+            </div>
+            </Col>
+            <Col>
+              <div className="wrappercard">
+                <img className="wrappericon" src="/images/NFT1.png" />
+               </div>
+               </Col>
+               <Col>
+                 <div className="wrappercard">
+                   <img className="wrappericon" src="/images/NFT1.png" />
+                  </div>
+                  </Col>
         </div>
        </div>
-       </Row>
+       </div>
       </Container>
     </section>
   );

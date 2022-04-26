@@ -8,7 +8,7 @@ const Hero = () => {
       <h3 className="feature-content2">THE APE MAP</h3>
       <div className="container">
       <div className="apewrapper">
-          <img align-items="center" src="/images/APEMAP.png" />
+          <img src="/images/APEMAP.png" />
           </div>
           <div className="apewrapperteam">
           <a

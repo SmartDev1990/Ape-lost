@@ -85,6 +85,12 @@ const Feature = (props) => {
                 DEEP IN THE JUNGGLE <br />
                 LIES A SECRET
               </h3>
+              <div className="watermark">
+              <img  src="/images/Group 20.png"  width="400px" height="200px"/>
+            </div>
+            <div className="anotherWater">
+              <img  src="/images/Group 18.png"  width="400px" height="200px"/>
+            </div>
                 <Col className="feature-btn-group">
                   <Button size="sm" onClick={handleShow}>
                     Mint Your Ape

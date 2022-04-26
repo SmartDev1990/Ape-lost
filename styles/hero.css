@@ -107,3 +107,21 @@
 .mint-number label {
   font-size: 3rem;
 }
+.watermark > img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: red;
+  text-align: right;
+  opacity: 1.5;
+
+}
+.anotherWater > img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: red;
+  text-align: left;
+  opacity: 1.5;
+
+}

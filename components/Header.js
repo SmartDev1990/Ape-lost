@@ -117,6 +117,7 @@ const Header = () => {
       <Navbar light expand="md">
         <Container>
           <NavbarBrand href="/">
+          <img src="/images/logo2.png" alt="" style={{width: "200px"}}/>
             <img src="/images/logo.png" alt="" style={{width: "100px"}}/>
           </NavbarBrand>
           <NavbarToggler onClick={toggle} />
@@ -126,7 +127,13 @@ const Header = () => {
                 <NavLink href="/">Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#faq">FAQ</NavLink>
+                <NavLink href="#faq">Unique Ape</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#faq">Ape Map</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#faq">Claim</NavLink>
               </NavItem>
               <NavItem>
                 {!signedIn ? <Button size="sm" onClick={connectMetamask}>CONNECT WALLET</Button>

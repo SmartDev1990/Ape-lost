@@ -8,14 +8,12 @@ const Hero = () => {
       <h3 className="feature-content2">OUR TEAM</h3>
       <div className="row align-items-start">
       <div className="cardcontainer">
-      <div className="grid">
-        <div className="wrapper">
+        <div className="wrapper-grid">
           <img className="wrappericon" src="/images/NFT1.png" />
              <img className="wrappericon" src="/images/NFT1.png" />
              <img className="wrappericon" src="/images/NFT1.png" />
            <img className="wrappericon" src="/images/NFT1.png" />
         </div>
-       </div>
        </div>
        </div>
       </Container>

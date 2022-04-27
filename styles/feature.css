@@ -15,7 +15,7 @@ position: relative;
     flex-direction: column;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 70px) {
   div.img {
     display: none;
   }

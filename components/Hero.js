@@ -79,7 +79,7 @@ const Feature = (props) => {
       <div className="herocontainer">
         <Row className="justify-content-center">
           <Col>
-            <img className="herocontainer-img" src="/images/hero.png"/>
+             <img src="/images/NFT1.png" />
             <div className="title mb-5">
               <h3 className="hero-title">
                 DEEP IN THE JUNGGLE <br />

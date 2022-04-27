@@ -20,6 +20,12 @@ position: relative;
     display: none;
   }
 }
+
+@.img {
+  max-width: 80px;
+  align-items: center;
+  images: url("/images/bg.png");
+}
 }
 
 

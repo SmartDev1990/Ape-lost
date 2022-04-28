@@ -77,7 +77,7 @@ const Feature = (props) => {
   return (
     <section id="hero">
       <div className="container">
-          <div className="feature-header">
+          <div className="title mb-5">
              <img src="/images/hero.png" />
             </div>
             <div className="title mb-5">

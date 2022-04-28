@@ -4,11 +4,10 @@ import { Container, Row, Col } from 'reactstrap';
 const Hero = () => {
   return (
     <section style={{marginTop: "100px", marginBottom: "100px"}} id="APEMAP">
-      <Container>
-      <h3 className="feature-content2">THE APE MAP</h3>
       <div className="container">
-      <div className="apewrapper">
-          <img src="/images/APEMAP.png" />
+      <h3 className="feature-content2">THE APE MAP</h3>
+      <div className="feature-header">
+          <img src="/images/APEMAP.png" style={{alignItems: "center"}}/>
           </div>
           <div className="apewrapperteam">
           <a
@@ -18,7 +17,6 @@ const Hero = () => {
           >
         </div>
        </div>
-      </Container>
     </section>
   );
 }

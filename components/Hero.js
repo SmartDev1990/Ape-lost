@@ -76,12 +76,12 @@ const Feature = (props) => {
 
   return (
     <section id="hero">
-      <Container>
-        <Row className="justify-content-center">
-          <Col>
-             <img src="/images/NFT1.png" />
+      <div className="herocontainer">
+          <div className="feature-header">
+             <img src="/images/hero.png" />
+            </div>
             <div className="title mb-5">
-              <h3 className="hero-title">
+              <h3 className="feature-content">
                 DEEP IN THE JUNGGLE <br />
                 LIES A SECRET
               </h3>
@@ -91,8 +91,6 @@ const Feature = (props) => {
                   </Button>
                   </Col>
             </div>
-          </Col>
-        </Row>
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
             <Modal.Title>Mint Ape</Modal.Title>
@@ -121,7 +119,7 @@ const Feature = (props) => {
             </Button>
           </Modal.Footer>
         </Modal>
-        </Container>
+        </div>
     </section>
   );
 }

@@ -126,6 +126,11 @@ flex-wrap: wrap;
 align-items: flex-start;
 justify-content: start;
 background-color: #10083B;
+
+/* Screen larger than 600px? 2 column */
+@media (min-width: 600px) {
+  .wrapper { grid-template-columns: repeat(1, 1fr); }
+}
 }
 
 .wrappercard {

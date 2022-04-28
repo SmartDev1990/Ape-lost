@@ -23,6 +23,7 @@
 .header .navbar {
   padding: 10px 0px;
   line-height: 50px;
+  align-items: center;
 }
 .header.sticky {
   position: absolute;

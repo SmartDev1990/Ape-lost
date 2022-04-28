@@ -126,7 +126,7 @@ const Header = () => {
                 <NavLink href="/">Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/">Unique-Ape</NavLink>
+                <NavLink href="/">UniqueApe</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/">ApeMap</NavLink>

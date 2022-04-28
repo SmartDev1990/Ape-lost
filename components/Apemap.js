@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="container">
       <h3 className="feature-content2">THE APE MAP</h3>
       <div className="feature-header">
-          <img src="/images/APEMAP.png" style={{alignItems: "center"}}/>
+          <img className="Mapicon" src="/images/APEMAP.png" style={{alignItems: "center"}}/>
           </div>
           <div className="apewrapperteam">
           <a

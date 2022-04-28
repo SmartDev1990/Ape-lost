@@ -218,9 +218,8 @@ align-items: center;
 }
 
 .Mapicon {
-height: 160px;
-width: 160px;
-justify-content: center;
+width: 210px;
+height: 180px;
 }
 
 .feature-img {

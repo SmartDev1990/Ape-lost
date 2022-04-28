@@ -126,13 +126,13 @@ const Header = () => {
                 <NavLink href="/">Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#faq">Unique Ape</NavLink>
+                <NavLink href="/">Unique-Ape</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#faq">Ape Map</NavLink>
+                <NavLink href="/">ApeMap</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#faq">Claim</NavLink>
+                <NavLink href="/">Claim</NavLink>
               </NavItem>
               <NavItem>
                 {!signedIn ? <Button size="sm" onClick={connectMetamask}>CONNECT WALLET</Button>

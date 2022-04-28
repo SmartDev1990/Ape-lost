@@ -76,7 +76,7 @@ const Feature = (props) => {
 
   return (
     <section id="hero">
-      <div className="herocontainer">
+      <Container>
         <Row className="justify-content-center">
           <Col>
              <img src="/images/NFT1.png" />
@@ -121,7 +121,7 @@ const Feature = (props) => {
             </Button>
           </Modal.Footer>
         </Modal>
-        </div>
+        </Container>
     </section>
   );
 }

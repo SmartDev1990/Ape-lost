@@ -78,7 +78,7 @@ const Feature = (props) => {
     <section className="section position-relative" style={{marginTop: "100px", marginBottom: "30px"}}>
       <div className="container">
           <div className="feature-header">
-             <img src="/images/hero.png" />
+             <img className="heroicon" src="/images/hero.png" />
             </div>
             <div className="title mb-5">
               <h3 className="feature-content">

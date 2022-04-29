@@ -95,6 +95,7 @@ const Feature = (props) => {
           <Modal.Body className="button">
             <img src="/images/NFT1.png" alt="" style={{maxWidth: "80px"}}/>
             <Modal.Title>CLAIM YOUR CRYSTAL</Modal.Title>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
           </Modal.Body>
           <Modal.Footer className="button">
             <Button color="pink" onClick={() => mint(tokenNumber)}>

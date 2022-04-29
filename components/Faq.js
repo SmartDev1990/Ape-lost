@@ -104,7 +104,7 @@ const panels = [
 const Faq = () => {
 
   return (
-    <section className="section" id="faq">
+    <section className="section" id="faq" style={{marginTop: "100px", marginBottom: "100px"}}>
       <Container>
         <h3 className="feature-content2">PROJECT FAQS</h3>
         <Accordion panels={ panels }/>

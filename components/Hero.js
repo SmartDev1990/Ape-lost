@@ -76,6 +76,7 @@ const Feature = (props) => {
 
   return (
     <section className="section position-relative" style={{marginTop: "100px", marginBottom: "30px"}}>
+    <div className="herolayout">
       <div className="container">
           <div className="feature-header">
              <img className="heroicon" src="/images/hero.png" />
@@ -119,6 +120,7 @@ const Feature = (props) => {
             </Button>
           </Modal.Footer>
         </Modal>
+        </div>
         </div>
     </section>
   );

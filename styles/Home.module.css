@@ -9,20 +9,6 @@
   height: 100vh;
 }
 
-.container2 {
-  background: url("/images/bg.png");
-  background-size: 1500px;
-  background-repeat: no-repeat;
-  min-height: auto;
-  padding-top: 50px;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
 .main {
   padding: 5rem 0;
   flex: 1;

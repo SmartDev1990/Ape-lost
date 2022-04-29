@@ -91,17 +91,15 @@ const Feature = (props) => {
                   </Button>
                   </Col>
             </div>
-        <Modal className="modal1" show={show} onHide={handleClose}>
+        <Modal show={show} onHide={handleClose}>
           <Modal.Body className="button">
             <img src="/images/NFT1.png" alt="" style={{maxWidth: "80px"}}/>
             <Modal.Title>CLAIM YOUR CRYSTAL</Modal.Title>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-          </Modal.Body>
-          <Modal.Footer className="button">
             <Button color="pink" onClick={() => mint(tokenNumber)}>
-              CLAIM
+              CONNECT WALLET
             </Button>
-          </Modal.Footer>
+          </Modal.Body>
         </Modal>
         </div>
     </section>

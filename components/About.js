@@ -7,10 +7,10 @@ const Hero = () => {
       <div className="container">
       <h3 className="feature-content2">OUR TEAM</h3>
         <div className="wrapper">
-          <img className="wrappericon" src="/images/NFT1.png" />
-             <img className="wrappericon" src="/images/NFT1.png" />
-             <img className="wrappericon" src="/images/NFT1.png" />
-           <img className="wrappericon" src="/images/NFT1.png" />
+          <img className="wrappericon" src="/images/team1.png" />
+             <img className="wrappericon" src="/images/team2.png" />
+             <img className="wrappericon" src="/images/team3.png" />
+           <img className="wrappericon" src="/images/team4.png" />
         </div>
       </div>
     </section>

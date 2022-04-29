@@ -118,13 +118,13 @@ max-width: 100%;
 margin: 0 auto;
 display: flex;
 grid-auto-flow: column;
-grid-auto-columns: minmax(160px, 4fr);
+grid-auto-columns: repeat(4, 1fr);
 grid-template-rows: auto;
 grid-gap: .5rem;
 margin: .5rem 0;
 flex-wrap: wrap;
 align-items: flex-start;
-justify-content: start;
+justify-content: center;
 background-color: #10083B;
 
 /* Screen larger than 600px? 2 column */

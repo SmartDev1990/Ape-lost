@@ -76,6 +76,18 @@ align-index: center;
   text-align: center;
 }
 
+.containerApe {
+  background: radial-gradient(circle, rgba(162,168,202,0.771212708716299) 0%, rgba(162,168,202,0) 100%);
+  min-height: auto;
+  padding-top: 300px;
+  padding-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .feature-content {
 font-family: 'Chieezy Burger', sans-serif;
 font-size: 70px;
@@ -244,8 +256,8 @@ align-items: center;
 }
 
 .Mapicon {
-width: 210px;
-height: 180px;
+width: 363px;
+height: 340px;
 }
 
 .feature-img {

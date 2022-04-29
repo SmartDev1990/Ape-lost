@@ -91,31 +91,14 @@ const Feature = (props) => {
                   </Button>
                   </Col>
             </div>
-        <Modal show={show} onHide={handleClose}>
-          <Modal.Header closeButton>
-            <Modal.Title>Mint Ape</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
-            <img src="/images/dog1.jpg" alt="" style={{maxWidth: "320px"}}/>
-            <div className="mint-number">
-              <button type="button" onClick={decreaseTokenNumber}><span aria-hidden="true">-</span></button>
-              <Form>
-                <Form.Label>
-                  { tokenNumber }
-                </Form.Label>
-                <div>
-                  Total minted so far: { props.totalSupply } / { props.maxMetabaes }
-                </div>
-              </Form>
-              <button type="button" onClick={() => setTokenNumber(tokenNumber + 1)}><span aria-hidden="true">+</span></button>
-            </div>
+        <Modal className="modal1" show={show} onHide={handleClose}>
+          <Modal.Body className="button">
+            <img src="/images/NFT1.png" alt="" style={{maxWidth: "80px"}}/>
+            <Modal.Title>CLAIM YOUR CRYSTAL</Modal.Title>
           </Modal.Body>
-          <Modal.Footer>
-            <Button variant="primary" onClick={() => mint(tokenNumber)}>
-              Mint
-            </Button>
-            <Button variant="secondary" onClick={handleClose}>
-              Close
+          <Modal.Footer className="button">
+            <Button color="pink" onClick={() => mint(tokenNumber)}>
+              CLAIM
             </Button>
           </Modal.Footer>
         </Modal>

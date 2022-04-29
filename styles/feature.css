@@ -66,6 +66,12 @@ align-index: center;
   position: relative;
 }
 
+.button {
+  justify-content: center;
+  background: rgb(162,168,202);
+  align-items: center;
+}
+
 .feature-header {
   font-size: 3.5rem;
   font-weight: 900;

@@ -86,8 +86,6 @@ align-index: center;
   font-weight: 900;
   color: #fff;
   line-height: 3.75rem;
-  padding-top: 50px;
-  padding-bottom: 50px;
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
@@ -97,12 +95,10 @@ align-index: center;
   background: #D6DCFE;
   background-position: center;
   background-size: 5000px;
-  padding-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .feature-content {

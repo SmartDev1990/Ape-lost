@@ -94,10 +94,13 @@ const Feature = (props) => {
         <Modal show={show} onHide={handleClose}>
           <Modal.Body className="button">
             <img src="/images/NFT1.png" alt="" style={{maxWidth: "80px"}}/>
-            <Modal.Title>CLAIM YOUR CRYSTAL</Modal.Title>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-            <Button color="pink" onClick={() => mint(tokenNumber)}>
-              CONNECT WALLET
+            <Modal.Title>Mint Your Lost Ape</Modal.Title>
+            <p>mint your Ape at the 0.0045ETH for each Ape you minted</p>
+            <label for="inputPassword5" class="form-label"></label>
+<input type="text" id="text" class="form-control" aria-describedby="" placeholder="Type eg. 1,2,3"/><br/>
+           {/* <Button color="pink" onClick={() => mint(tokenNumber)} className="button-71">*/}
+            <Button color="blue"  className="button-71">
+              Mint Ape
             </Button>
           </Modal.Body>
         </Modal>

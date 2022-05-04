@@ -116,7 +116,7 @@
   bottom: 0;
   color: red;
   text-align: right;
-  opacity: 1.5;
+  opacity: 2;
 }
 .anotherWater > img {
   position: absolute;
@@ -124,6 +124,26 @@
   bottom: 0;
   color: red;
   text-align: left;
-  opacity: 1.5;
+  opacity: 2;
 
 }
+.form-control{
+  width: 45%;
+  height:48px;
+  margin: 0 auto;
+  padding: 3px 4px 2px 4px;
+  background-color:#8D93B5;
+  border: 1px solid black;
+  border-radius:  50px; 
+}
+.button-71{
+  width: 36%;
+  height:35px;
+  margin: 0 auto;
+  padding: 3px 4px 2px 4px;
+  background-color:blue;
+  border: 1px solid black;
+  border-radius:  50px; 
+
+}
+

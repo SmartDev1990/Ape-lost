@@ -10,13 +10,6 @@ const Hero = () => {
       <div className="feature-header">
           <img className="Mapicon" src="/images/APEMAP.png" style={{alignItems: "center"}}/>
           </div>
-          <div className="apewrapperteam">
-          <a
-            href="https://drive.google.com/file/d/1kRKcILq4BToqLbhCUlyaYKdvuVCYwi2R/view?usp=drivesdk"
-            className="btn"
-            >EXPLORE THE APE MAP</a
-          >
-        </div>
         </div>
        </div>
     </section>

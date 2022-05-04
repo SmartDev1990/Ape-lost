@@ -6,6 +6,7 @@ import Feature from '../components/Feature';
 import Footer from '../components/Footer';
 import Faq from '../components/Faq';
 import About from '../components/About';
+import SocialMedia from '../components/SocialMedia';
 import Join from '../components/Join';
 
 const Index = () => {
@@ -18,6 +19,7 @@ const Index = () => {
       <Faq />
       <About />
       <Join />
+      <SocialMedia />
       <Footer />
     </Layout>
   )

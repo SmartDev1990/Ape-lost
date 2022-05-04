@@ -86,16 +86,18 @@ align-index: center;
   font-weight: 900;
   color: #fff;
   line-height: 3.75rem;
-  margin-top: 100px;
-  margin-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
 .containerApe {
-  background: radial-gradient(circle, rgba(162,168,202,0.771212708716299) 0%, rgba(162,168,202,0) 100%);
-  min-height: auto;
-  padding-top: 300px;
-  padding-bottom: 150px;
+  background: #D6DCFE;
+  background-position: center;
+  background-size: 5000px;
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -362,4 +364,12 @@ height: 340px;
 
 .mint-number label {
   font-size: 3rem;
+}
+
+.SocialMedia {
+  text-align: center;
+  color: black;
+  border-radius: 15px;
+  border-color: blue;
+  border-width: 5px;
 }

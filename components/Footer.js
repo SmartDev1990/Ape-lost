@@ -8,8 +8,7 @@ const Footer = () => {
       <Container>
         <div className="footer-main">
           <div>
-            <div className="com-name">@2021THEMETABAES</div>
-            <div className="terms-cond">TEMRS&CONDITIONS</div>
+            <div className="com-name">POWERED BY DISCURSO</div>
           </div>
           <ul className="list-group">
             <li className="list-group-item">

@@ -113,7 +113,7 @@ align-index: center;
 
 .feature-content {
 font-family: 'Chieezy Burger', sans-serif;
-font-size: 54px;
+font-size: 34px;
 letter-spacing: 0em;
 text-align: center;
 }
@@ -307,10 +307,38 @@ box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
 border-color: white;
 }
 
-.heroicon {
+.hero img{
 height: 120px;
 width: 320px;
 align-items: center;
+}
+
+@media (min-width: 1200px) {
+  .hero img {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .hero img {
+    height: 70px;
+    width: 70px;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .hero img {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero img {
+    height: 50px;
+    width: 50px;
+  }
 }
 
 .Mapicon {

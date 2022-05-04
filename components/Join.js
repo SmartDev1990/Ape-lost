@@ -15,7 +15,7 @@ const Hero = () => {
 
             </h1>
             <a
-              href="https://drive.google.com/file/d/1kRKcILq4BToqLbhCUlyaYKdvuVCYwi2R/view?usp=drivesdk"
+              href="#"
               target="_blank"
               className="btn"
               >DISCORD</a

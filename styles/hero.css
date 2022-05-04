@@ -141,8 +141,13 @@
   height:35px;
   margin: 0 auto;
   padding: 3px 4px 2px 4px;
-  background-color:blue;
+  background: linear-gradient(90.06deg, #9CF6D4 0.02%, #FFC0FC 22.91%, #FFC578 43.73%, #BFB0FF 66.1%, #FFBFE0 82.75%, #71B3FF 99.92%);
   border: 1px solid black;
   border-radius:  50px;
 
+}
+
+.buttoncolor {
+  background: linear-gradient(90.06deg, #9CF6D4 0.02%, #FFC0FC 22.91%, #FFC578 43.73%, #BFB0FF 66.1%, #FFBFE0 82.75%, #71B3FF 99.92%);
+border-radius: 20px;
 }

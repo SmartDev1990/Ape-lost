@@ -91,9 +91,8 @@ const Feature = (props) => {
                   </Button>
                   </Col>
             </div>
-        <Modal show={show} onHide={handleClose}>
-          <Modal.Body className="button">
-            <img src="/images/NFT1.png" alt="" style={{maxWidth: "80px"}}/>
+        <Modal className="modalbg" show={show} onHide={handleClose}>
+          <Modal.Body className="buttoncolor">
             <Modal.Title>Mint Your Lost Ape</Modal.Title>
             <p>mint your Ape at the 0.0045ETH for each Ape you minted</p>
             <label for="inputPassword5" class="form-label"></label>

@@ -294,6 +294,7 @@ height: 266.6683654785156px;
 width: 270.2068786621094px;
 left: 83.793212890625px;
 top: 832px;
+padding-bottom: 20px;
 border-radius: 30px;
 
 }
@@ -342,8 +343,10 @@ align-items: center;
 }
 
 .Mapicon {
-width: 363px;
-height: 340px;
+  width: 363px;
+  height: 320px;
+  left: 661px;
+  top: 2312px;
 }
 
 .feature-img {

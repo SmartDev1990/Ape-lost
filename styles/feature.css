@@ -96,8 +96,7 @@ align-index: center;
 
 .containerApe {
   background: #D6DCFE;
-  background-position: center;
-  background-size: 5000px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -107,6 +106,7 @@ align-index: center;
 .containerApe2 {
   background: linear-gradient(180deg, rgba(115, 115, 116, 0) 33.45%, #10083B 80.4%);
   display: flex;
+  margin-top: -60px;
   flex-direction: column;
   justify-content: center;
   align-items: center;

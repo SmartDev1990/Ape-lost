@@ -12,7 +12,7 @@ import Join from '../components/Join';
 
 const Index = () => {
   return (
-    <Layout pageTitle="Metabaes">
+    <Layout pageTitle="APE-LOST">
       <Header />
       <Hero />
       <Feature/>

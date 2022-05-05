@@ -309,8 +309,6 @@ transition: all 0.2s ease-in-out;
 .wrappericon {
 height: 266.6683654785156px;
 width: 270.2068786621094px;
-left: 83.793212890625px;
-top: 832px;
 padding-bottom: 20px;
 border-radius: 30px;
 
@@ -458,22 +456,18 @@ align-items: center;
   text-align: center;
   color: black;
  width: 250px;
- height: 78px;
+ height: 50px;
  left: 244.6px;
  top: 5554px;
  background: #FFFFFF;
  border-radius: 100px;
- box-shadow: linear-gradient(90.02deg, #909FF6 0.02%, #FFC0FC 19.34%, #FFC578 41.35%, #9CF6D4 64.17%, #FFBFE0 84.59%, #71B3FF 102.62%);
 }
 
 .SocialMedia2 {
   text-align: center;
   color: black;
  width: 250px;
- height: 78px;
- left: 244.6px;
- top: 5554px;
+ height: 50px;
  background: blue;
  border-radius: 100px;
- box-shadow: linear-gradient(90.02deg, #909FF6 0.02%, #FFC0FC 19.34%, #FFC578 41.35%, #9CF6D4 64.17%, #FFBFE0 84.59%, #71B3FF 102.62%);
 }

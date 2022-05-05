@@ -14,7 +14,7 @@ const Hero = () => {
               ON DISCORD
 
             </h1>
-            <Button className="SocialMedia2">
+            <Button className="SocialMedia2" style={{background: "#71B3FF"}}>
               JOIN DISCORD
             </Button>
 
@@ -22,7 +22,7 @@ const Hero = () => {
           <div class="col-md-6">
             <div className="text-center">
               <img
-                src="/images/team4.png"
+                src="/images/joinimage.png"
                 alt="logo"
                 className="wrappericon"
                 data-aos="zoom-in"

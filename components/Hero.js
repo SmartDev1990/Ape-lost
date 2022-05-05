@@ -86,7 +86,7 @@ const Feature = (props) => {
                 LIES A SECRET
               </h3>
                 <Col className="feature-btn-group">
-                  <Button size="sm" onClick={handleShow}>
+                  <Button className="SocialMedia" size="sm" onClick={handleShow} style={{background: "white"}}>
                     Mint Your Ape
                   </Button>
                   </Col>

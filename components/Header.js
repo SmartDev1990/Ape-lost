@@ -135,7 +135,7 @@ const Header = () => {
                 <NavLink href="/">Claim</NavLink>
               </NavItem>
               <NavItem>
-                {!signedIn ? <Button size="sm" onClick={connectMetamask}>CONNECT WALLET</Button>
+                {!signedIn ? <Button className="SocialMedia" style={{background: "#71B3FF"}} size="sm" onClick={connectMetamask}>CONNECT WALLET</Button>
                 :
                 <Button size="sm" onClick={disconnectMetamask}>DISCONNECT WALLET</Button>}
               </NavItem>

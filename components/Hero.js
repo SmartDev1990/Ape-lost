@@ -75,7 +75,7 @@ const Feature = (props) => {
 
 
   return (
-    <section className="bg" style={{paddingTop: "100px", paddingButtom: "100px"}}>
+    <section className="bg bg-img" style={{paddingTop: "100px", paddingButtom: "100px"}}>
       <div className="container">
           <div className="feature-header">
              <img className="hero-img" src="/images/hero.png" />

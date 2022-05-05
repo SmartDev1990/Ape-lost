@@ -47,6 +47,34 @@ height: 100vh;
   top: 1px;
 }
 
+@media (min-width: 1200px) {
+  .bg img {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .bg img {
+    height: 70px;
+    width: 70px;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .bg img {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .bg img {
+    height: 50px;
+    width: 50px;
+  }
+}
+
 .herolayout2 {
   content-width: box;
   width: auto;

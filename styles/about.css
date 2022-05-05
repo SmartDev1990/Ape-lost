@@ -1,63 +1,59 @@
-.about-content {
-  font-size: 1.25rem;
-  color: #fff;
-}
+.protocol {
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: Black;
+  opacity: 60;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(0,0,255,0.3));
 
-.member {
-  display: flex;
-  -webkit-box-pack: start;
-  justify-content: start;
-  padding: 20px;
-  color: #fff;
-  margin-right: 25px;
-  cursor: default;
-  border: 1px solid #feffe2;
-  box-sizing: border-box;
-  border-radius: 16px;
-}
-
-.member img {
-  border-radius: 50%;
-  margin-right: 12px;
-}
-
-@media (min-width: 1200px) {
-  .member img {
-    height: 80px;
-    width: 80px;
+  .title {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
   }
-}
 
-@media (max-width: 1199px) and (min-width: 992px) {
-  .member img {
-    height: 70px;
-    width: 70px;
+  .subtitle {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 40px;
+
+    @include breakpoint(mobile) {
+      font-size: 18px;
+    }
   }
-}
 
-@media (max-width: 991px) and (min-width: 768px) {
-  .member img {
-    height: 60px;
-    width: 60px;
+  .desc {
+    color: white;
   }
-}
 
-@media (max-width: 767px) {
-  .member img {
-    height: 50px;
-    width: 50px;
+  &-grid {
+    display: grid;
+    grid-auto-columns: repeat(1, 4fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin-top: 40px;
   }
-}
 
-.member-name {
-  font-size: 1.25rem;
-  text-transform: uppercase;
-  color: #ff4cb5;
-  font-weight: 700;
-}
+  .card {
+    &-title {
+      color: $dark-color;
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
 
-.member-content {
-  font-size: 1rem;
-  margin-top: 2px;
-  color: #fff;
+    &-desc {
+      color: $dark-light-color;
+    }
+  }
+
+  &-icon {
+    margin-top: 40px;
+    height: 120px;
+    margin-bottom: 20px;
+
+    @include breakpoint(mobile) {
+      margin-top: 40px;
+    }
+  }
 }

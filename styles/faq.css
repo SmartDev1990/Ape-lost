@@ -51,7 +51,7 @@
   opacity: 1;
 }
 .panel[aria-expanded='true'] .panel__label {
-  color: #fff;
+  color: blue;
 }
 .panel[aria-expanded='true'] .panel__label:before {
   transform: rotate(0deg);
@@ -61,7 +61,7 @@
   overflow: hidden;
   will-change: height;
   transition: height 0.4s cubic-bezier(0.65, 0.05, 0.36, 1);
-  color: #fff;
+  color: #000;
 }
 .panel__content {
   margin: 8px 0;

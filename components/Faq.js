@@ -92,12 +92,12 @@ const panels = [
 		content: 'Each lost ape will have a mint price 0.05 ETH',
 	},
 	{
-		label: 'How was The Doge Pound created?',
-		content: 'Each Doge Pound has constructed algorithmically by mixing a variety of properties with different possibilities in the following categories: Background, Clothing, Earring, Eyes, Eyewear, Mouth, Fur, and Hat.',
+		label: 'Mint Maximum',
+		content: 'Each Whitelisted and public sale participant can mint up to 4 Lost Apes.',
 	},
 	{
-		label: 'What is the smart contract address of The Doge Pound?',
-		content: 'Verified smart contract address: 0xF4ee95274741437636e748DdAc70818B4ED7d043',
+		label: 'How do Crystals work?',
+		content: 'Each Lost Ape NFT accrues $CRYSTAL at the same rate which is redeemable through the platform',
 	},
 ];
 

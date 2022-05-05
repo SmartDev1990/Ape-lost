@@ -355,6 +355,7 @@ align-items: center;
   }
 }
 
+
 .Mapicon {
   width: 363px;
   height: 320px;
@@ -456,11 +457,23 @@ align-items: center;
 .SocialMedia {
   text-align: center;
   color: black;
- width: 300px;
+ width: 250px;
  height: 78px;
  left: 244.6px;
  top: 5554px;
  background: #FFFFFF;
+ border-radius: 100px;
+ box-shadow: linear-gradient(90.02deg, #909FF6 0.02%, #FFC0FC 19.34%, #FFC578 41.35%, #9CF6D4 64.17%, #FFBFE0 84.59%, #71B3FF 102.62%);
+}
+
+.SocialMedia2 {
+  text-align: center;
+  color: black;
+ width: 250px;
+ height: 78px;
+ left: 244.6px;
+ top: 5554px;
+ background: blue;
  border-radius: 100px;
  box-shadow: linear-gradient(90.02deg, #909FF6 0.02%, #FFC0FC 19.34%, #FFC578 41.35%, #9CF6D4 64.17%, #FFBFE0 84.59%, #71B3FF 102.62%);
 }

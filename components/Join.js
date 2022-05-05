@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className="section position-relative" background-color="#10083B" style={{marginTop: "200px", marginBottom: "100px"}}>
       <Container>
-      <div className="hero">
+      <div className="hero2">
       <div className="container">
         <div className="row">
           <div className="col-md-6">
@@ -14,12 +14,9 @@ const Hero = () => {
               ON DISCORD
 
             </h1>
-            <a
-              href="#"
-              target="_blank"
-              className="btn"
-              >DISCORD</a
-            >
+            <Button className="SocialMedia2">
+              JOIN DISCORD
+            </Button>
 
           </div>
           <div class="col-md-6">
@@ -27,7 +24,7 @@ const Hero = () => {
               <img
                 src="/images/team4.png"
                 alt="logo"
-                className="imgjoin"
+                className="wrappericon"
                 data-aos="zoom-in"
               />
             </div>

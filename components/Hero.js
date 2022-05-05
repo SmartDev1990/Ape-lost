@@ -98,7 +98,7 @@ const Feature = (props) => {
             <label for="inputPassword5" class="form-label"></label>
 <input type="text" id="text" class="form-control" aria-describedby="" placeholder="Type eg. 1,2,3"/><br/>
            {/* <Button color="pink" onClick={() => mint(tokenNumber)} className="button-71">*/}
-            <Button color="blue"  className="button-71">
+            <Button className="SocialMedia" size="sm" style={{background: "#71B3FF"}}>
               Mint Ape
             </Button>
           </Modal.Body>

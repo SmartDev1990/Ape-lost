@@ -24,7 +24,7 @@ const Hero = () => {
               <img
                 src="/images/joinimage.png"
                 alt="logo"
-                className="wrappericon"
+                className="joinicon"
                 data-aos="zoom-in"
               />
             </div>

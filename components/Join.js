@@ -3,7 +3,7 @@ import { Container, Row, Col, Button } from 'reactstrap';
 
 const Hero = () => {
   return (
-    <section className="section position-relative" background-color="#10083B" style={{marginTop: "200px", marginBottom: "100px"}}>
+    <section background-color="#10083B" style={{marginTop: "200px", marginBottom: "100px"}}>
       <Container>
       <div className="hero2">
       <div className="container">

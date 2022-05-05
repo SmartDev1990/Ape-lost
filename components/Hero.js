@@ -91,7 +91,7 @@ const Feature = (props) => {
                   </Button>
                   </Col>
             </div>
-        <Modal className="modalbg" show={show} onHide={handleClose}>
+        <Modal  show={show} onHide={handleClose}>
           <Modal.Body className="buttoncolor">
             <Modal.Title>Mint Your Lost Ape</Modal.Title>
             <p>mint your Ape at the 0.0045ETH for each Ape you minted</p>

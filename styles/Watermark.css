@@ -1,0 +1,21 @@
+.section1 {
+	    height: 100%;
+	    margin: 0px;
+	    padding: 0px;
+	    background: transparent;
+	    font-size: 11pt;
+	    font-weight: 400;
+	    color: #fff;
+	}
+
+  .joinicon1 {
+    width: 300px;
+    height: 300px;
+    text-align: left;
+  }
+
+  .joinicon2 {
+    width: 300px;
+    height: 300px;
+    text-align: right;
+  }

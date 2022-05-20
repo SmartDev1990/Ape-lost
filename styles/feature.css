@@ -57,37 +57,43 @@ flex-direction: column;
 align-index: center;
 }
 
-.bg {
-  background: url("/images/bg1.png") no-repeat center;
-  position: absolute;
-  background-size: cover;
+.block {
+  background:  url("/images/group-20.png"), url("/images/group-18.png"), url("/images/bg.png");
+  background-size: 200px, 200px, cover;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: bottom right, bottom left, center;
   width: auto;
   position: relative;
   padding-bottom: 150px;
 }
 
-@media (min-width: 1200px) {
-  .bg img {
-    width: 100%;
-  }
+@media (max-width: 1920px) and (min-width: 1441px) {
+    @content;
 }
 
-@media (max-width: 1199px) and (min-width: 992px) {
-  .bg img {
-    width: 100%;
-  }
+@media (max-width: 1440px) and (min-width: 1025px) {
+    @content;
 }
-
-@media (max-width: 991px) and (min-width: 768px) {
-  .bg img {
-    width: 100%;
-  }
+@media (max-width: 1024px) and (min-width: 768px) {
+    @content;
 }
-
-@media (max-width: 767px) {
-  .bg img {
-    width: 100%;
-  }
+@media (max-width: 1024px) and (min-width: 320px) {
+    @content;
+}
+@media (max-width: 767px) and (min-width: 320px) {
+    @content;
+}
+@media (max-width: 767px) and (min-width: 479px) {
+    @content;
+}
+@media (max-width: 480px) and (min-width: 320px) {
+    @content;
+}
+@media (max-width: 650px) and (min-width: 568px) {
+    @content;
+}
+@media (max-height: 550px) and (min-height: 0) {
+    background-images: url("/images/phonebg.png");
 }
 
 .button {
@@ -153,6 +159,7 @@ text-align: center;
 
 .Team-content3 {
   font-size: 12px;
+  font-family: Arial, san-serif;
   color: #fff;
   margin-top: 5px;
   margin-bottom: 20px;
@@ -498,7 +505,8 @@ align-items: center;
   text-align: center;
   color: black;
  width: 150px;
- height: 50px;
+ height: 30px;
+ padding-bottom: 10px;
  background: blue;
  border-radius: 100px;
 }

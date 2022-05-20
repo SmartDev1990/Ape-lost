@@ -75,7 +75,7 @@ const Feature = (props) => {
 
 
   return (
-    <section className="bg" style={{paddingTop: "100px", paddingButtom: "100px"}}>
+    <section className="block" style={{paddingTop: "100px", paddingButtom: "100px"}}>
       <div className="container">
           <div className="feature-header">
              <img className="hero-img" src="/images/hero.png" />
@@ -97,8 +97,7 @@ const Feature = (props) => {
             <p>mint your Ape at the 0.0045ETH for each Ape you minted</p>
             <label for="inputPassword5" class="form-label"></label>
 <input type="text" id="text" class="form-control" aria-describedby="" placeholder="Type eg. 1,2,3"/><br/>
-           {/* <Button color="pink" onClick={() => mint(tokenNumber)} className="button-71">*/}
-            <Button className="SocialMedia" size="sm" style={{background: "#71B3FF"}}>
+            <Button className="SocialMedia3" size="sm" style={{background: "#71B3FF"}} onClick={() => mint(tokenNumber)}>
               Mint Ape
             </Button>
           </Modal.Body>

@@ -110,23 +110,7 @@
 .mint-number label {
   font-size: 3rem;
 }
-.watermark > img {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  color: red;
-  text-align: right;
-  opacity: 2;
-}
-.anotherWater > img {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  color: red;
-  text-align: left;
-  opacity: 2;
 
-}
 .form-control{
   width: 45%;
   height:48px;
@@ -150,4 +134,50 @@
 .buttoncolor {
   background: linear-gradient(90.06deg, #9CF6D4 0.02%, #FFC0FC 22.91%, #FFC578 43.73%, #BFB0FF 66.1%, #FFBFE0 82.75%, #71B3FF 99.92%);
 border-radius: 20px;
+}
+
+.block {
+  background:  url("/images/group-20.png"), url("/images/group-18.png"), url("/images/bg.png");
+  background-size: 400px, 400px, cover;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: bottom right, bottom left, center;
+  width: auto;
+  position: relative;
+  padding-bottom: 150px;
+}
+
+@media only screen and (max-width: 900px) {
+  .block {
+    background:  url("/images/group-20.png"), url("/images/group-18.png"), url("/images/bg.png");
+    background-size: 300px, 300px, cover;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: bottom right, bottom left, center;
+    width: auto;
+    position: relative;
+    padding-bottom: 150px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .block {
+    background:  url("/images/group-20.png"), url("/images/group-18.png"), url("/images/bg.png");
+    background-size: 200px, 200px, cover;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: bottom right, bottom left, center;
+    width: auto;
+    position: relative;
+    padding-bottom: 150px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .block {
+    background:  url("/images/group-20.png"), url("/images/group-18.png"), url("/images/bg.png");
+    background-size: 150px, 150px, cover;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: bottom right, bottom left, center;
+    width: auto;
+    position: relative;
+    padding-bottom: 150px;
+  }
 }

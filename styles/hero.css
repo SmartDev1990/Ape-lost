@@ -137,7 +137,7 @@ border-radius: 20px;
 }
 
 .block {
-  background:  url("/images/group-20.png"), url("/images/group-18.png"), url("/images/bg.png");
+  background-image: url("/images/group-20.png"), url("/images/group-18.png"), url("/images/bg.png");
   background-size: 400px, 400px, cover;
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: bottom right, bottom left, center;
@@ -148,7 +148,7 @@ border-radius: 20px;
 
 @media only screen and (max-width: 900px) {
   .block {
-    background:  url("/images/group-20.png"), url("/images/group-18.png"), url("/images/bg.png");
+    background-image: url("/images/group-20.png"), url("/images/group-18.png"), url("/images/bg.png");
     background-size: 300px, 300px, cover;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: bottom right, bottom left, center;
@@ -160,7 +160,19 @@ border-radius: 20px;
 
 @media only screen and (max-width: 600px) {
   .block {
-    background:  url("/images/group-20.png"), url("/images/group-18.png"), url("/images/bg.png");
+    background-image: url("/images/group-20.png"), url("/images/group-18.png"), url("/images/bg.png");
+    background-size: 200px, 200px, cover;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: bottom right, bottom left, center;
+    width: auto;
+    position: relative;
+    padding-bottom: 150px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .block {
+    background-image: url("/images/group-20.png"), url("/images/group-18.png"), url("/images/bg.png");
     background-size: 200px, 200px, cover;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: bottom right, bottom left, center;
@@ -172,7 +184,7 @@ border-radius: 20px;
 
 @media only screen and (max-width: 400px) {
   .block {
-    background:  url("/images/group-20.png"), url("/images/group-18.png"), url("/images/bg.png");
+    background-image: url("/images/group-20.png"), url("/images/group-18.png"), url("/images/bg.png");
     background-size: 150px, 150px, cover;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: bottom right, bottom left, center;

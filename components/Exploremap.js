@@ -8,7 +8,7 @@ const Hero = () => {
           <a
             href="#"
             className="btn"
-            >EXPLORE THE APE MAP</a
+            >EXPLORE THE MOUSHY AVATARS</a
           >
        </div>
     </section>

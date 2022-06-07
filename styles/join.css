@@ -32,11 +32,42 @@
 align-items: bottom;
 }
 
+.imgjoin1 {
+  width: 400px;
+  height: 400px;
+  align-items: center;
+}
+
+.imgjoin2 {
+  width: 400px;
+  height: 400px;
+}
 
 .btn {
     border-radius: 15px;
     border-color: white;
     padding: 10px;
     background: white;
+    box-shadow: 0px 6px 6px rgb(76,67,241);
+}
+
+.btn2 {
+    border-radius: 15px;
+    border-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: white;
+    border-style: solid;
+    box-shadow: 0px 6px 6px rgb(76,67,241);
+}
+
+.btn3 {
+    border-radius: 15px;
+    border-color: white;
+    padding: 10px;
+    background: white;
+    border-style: solid;
     box-shadow: 0px 6px 6px rgb(76,67,241);
 }

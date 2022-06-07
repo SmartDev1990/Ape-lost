@@ -14,6 +14,7 @@ const Layout = (props) => {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
+        <link rel="stylesheet" href="/css/main.css"/>
         <link
          rel="stylesheet"
          href="http://fonts.cdnfonts.com/css/chieezy-burger"

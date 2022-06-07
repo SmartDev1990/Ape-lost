@@ -9,27 +9,23 @@ const Hero = () => {
         <div className="wrapper">
         <div className="wrapper-card">
         <img className="wrappericon1" src="/images/team1.png" />
-        <p className="Team-content"> MINTING PRICE </p>
-        <p className="Team-content3"> Each Lost Ape will have a mint <br />
-        price of 0.05 ETH </p>
+        <p className="Team-content"> Moushy Ronald </p>
+        <p className="Team-content3"> Founder </p>
         </div>
         <div className="wrapper-card">
         <img className="wrappericon1" src="/images/team2.png" />
-        <p className="Team-content"> MINTING PRICE </p>
-        <p className="Team-content3"> Each Lost Ape will have a mint <br />
-        price of 0.05 ETH </p>
+        <p className="Team-content"> Moushy Ding </p>
+        <p className="Team-content3"> Co-Founder </p>
         </div>
         <div className="wrapper-card">
         <img className="wrappericon1" src="/images/team6.png" />
-        <p className="Team-content"> MINTING PRICE </p>
-        <p className="Team-content3"> Each Lost Ape will have a mint <br />
-        price of 0.05 ETH </p>
+        <p className="Team-content"> Moushy Coky </p>
+        <p className="Team-content3"> Artist </p>
         </div>
         <div className="wrapper-card">
         <img className="wrappericon1" src="/images/team3.png" />
-        <p className="Team-content"> MINTING PRICE </p>
-        <p className="Team-content3"> Each Lost Ape will have a mint <br />
-        price of 0.05 ETH </p>
+        <p className="Team-content"> Moushy Richard </p>
+        <p className="Team-content3"> Artist </p>
         </div>
       </div>
       </div>

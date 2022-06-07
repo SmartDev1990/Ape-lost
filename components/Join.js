@@ -21,12 +21,6 @@ const Hero = () => {
           </div>
           <div class="col-md-6">
             <div className="text-center">
-              <img
-                src="/images/joinimage.png"
-                alt="logo"
-                className="joinicon"
-                data-aos="zoom-in"
-              />
             </div>
           </div>
         </div>

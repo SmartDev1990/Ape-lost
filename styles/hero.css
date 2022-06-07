@@ -136,11 +136,13 @@
 border-radius: 20px;
 }
 
+
 .block {
-  background-image: url("/images/group-20.png"), url("/images/group-18.png"), url("/images/bg.png");
-  background-size: 400px, 400px, cover;
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: bottom right, bottom left, center;
+  background: url("/images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
   width: auto;
   position: relative;
   padding-bottom: 150px;
@@ -148,10 +150,11 @@ border-radius: 20px;
 
 @media only screen and (max-width: 900px) {
   .block {
-    background-image: url("/images/group-20.png"), url("/images/group-18.png"), url("/images/bg.png");
-    background-size: 300px, 300px, cover;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: bottom right, bottom left, center;
+    background: url("/images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
     width: auto;
     position: relative;
     padding-bottom: 150px;
@@ -160,10 +163,12 @@ border-radius: 20px;
 
 @media only screen and (max-width: 600px) {
   .block {
-    background-image: url("/images/group-20.png"), url("/images/group-18.png"), url("/images/bg.png");
-    background-size: 200px, 200px, cover;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: bottom right, bottom left, center;
+    background: url("/images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: block;
     width: auto;
     position: relative;
     padding-bottom: 150px;
@@ -172,10 +177,12 @@ border-radius: 20px;
 
 @media only screen and (max-width: 500px) {
   .block {
-    background-image: url("/images/group-20.png"), url("/images/group-18.png"), url("/images/bg.png");
-    background-size: 200px, 200px, cover;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: bottom right, bottom left, center;
+    background: url("/images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: block;
     width: auto;
     position: relative;
     padding-bottom: 150px;
@@ -184,12 +191,51 @@ border-radius: 20px;
 
 @media only screen and (max-width: 400px) {
   .block {
-    background-image: url("/images/group-20.png"), url("/images/group-18.png"), url("/images/bg.png");
-    background-size: 150px, 150px, cover;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: bottom right, bottom left, center;
+    background: url("/images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: block;
     width: auto;
     position: relative;
     padding-bottom: 150px;
   }
+}
+
+.wrappericonw {
+height: 400px;
+width: 400px;
+}
+
+.wrapperw {
+max-width: 100%;
+display: flex;
+grid-auto-flow: column;
+grid-auto-columns: repeat(1, 2fr);
+position: relative;
+flex-wrap: wrap;
+background-color: transparent;
+
+/* Screen larger than 600px? 2 column */
+@media screen and (max-width: 600px) {
+  .wrapper {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+}
+
+.wrappercard1 {
+background: transparent;
+align-items: left;
+max-height: 280px;
+}
+
+.wrappercard2 {
+background: transparent;
+align-items: right;
+max-height: 280px;
 }

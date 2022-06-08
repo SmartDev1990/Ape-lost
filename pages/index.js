@@ -10,7 +10,6 @@ import About from '../components/About';
 import Watermark from '../components/Watermark';
 import SocialMedia from '../components/SocialMedia';
 import Join from '../components/Join';
-import Timeline from '../components/Timeline';
 
 const Index = () => {
   return (
@@ -21,7 +20,6 @@ const Index = () => {
       <Feature/>
       <Apemap/>
       <Exploremap />
-      <Timeline />
       <Faq />
       <About />
       <Join />

@@ -1,6 +1,8 @@
 .header {
   padding: 0px 15px;
-  color: transparent;
+  background: url("/images/bg.png");
+  background-repeat: no-repeat;
+  background-size: 2000px;
 }
 .header .nav-item {
   padding-left: 50px;
@@ -58,7 +60,7 @@
 
 @media (max-width: 767px) {
   .header .navbar-collapse {
-    background-color: transparent;
+    background-color: #272727;
   }
 }
 
@@ -81,8 +83,4 @@
 
 .header .nav-item .btn:hover {
   background-color: #ff4cb5;
-}
-
-.navtext {
-  font-family: cursive;
 }

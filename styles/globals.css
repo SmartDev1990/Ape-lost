@@ -2,13 +2,9 @@ html,
 body {
   font-family: 'Chieezy Burger', sans-serif;
   background: #10083B;
-  background-image: url("/images/bgbody.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: block;
-  width: auto;
-  position: relative;
+  background-image: url("/images/bg2.png"), url("/images/bg3.png");
+  background-position: right, left;
+  background-repeat: no-repeat, no-repeat;
 
 }
 
